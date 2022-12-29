@@ -1,0 +1,257 @@
+*::before,
+*::after{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    display:flex;
+    width: 100%;
+    background-color:rgb(247, 247, 251);
+}
+.aside{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    width: 15%;
+    border-right: 1px solid rgb(120, 120, 122);
+}
+.heading{
+    font-weight: bold;
+    font-style: italic;
+    padding: 20px;
+    padding-bottom: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.home, .search, .explore, .message, .notification,.create, .profilepix, .more{
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#pp{
+    width: 30px;
+    border-radius:50% ;
+}
+.main{
+    display: flex;
+    gap: 3%;
+    margin-left: 28%;
+    width: 100%;
+}
+.instapage{
+    width: 50%
+}
+
+div header.image{
+    background-color: white;
+    display: flex;
+    margin-top: 30px;
+    border: 1px solid rgb(120, 120, 122);
+    border-radius: 10px;
+    padding: 20px 10px 1px 10px;
+    height: 9%;
+    justify-content: space-around;
+    align-items:center;
+}
+.imagebackground{
+    background:linear-gradient(60deg, yellow, purple);
+    border-radius: 50%;
+    width: 63px;
+    height: 63px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#img1, #img2, #img3, #img4, #img5, #img6{
+    border: 4px solid white;
+    border-radius: 50%;
+    align-items: center;
+    width:50px;
+    height: 50px;
+}
+.name{
+    font-size: 12px;
+}
+.post{
+    background-color: white;
+    border: 1px solid rgb(120, 120, 122); 
+    height: 84%;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.intro{
+    height: 7%;
+    border-radius:6px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#profilepix{
+    width: 32px;
+    height: 32px;
+    border:2px solid white;
+    border-radius:100% ;
+    position: absolute;
+    margin-left: 3px;
+    margin-top: 3px; 
+}
+#profilebackground{
+    margin: 6px;
+    background:linear-gradient(60deg, yellow, purple);
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    position: relative;
+}
+.introflex{
+    display: flex;
+}
+
+.material-symbols-outlined {
+    margin-right: 10px;
+}
+.review{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.like{
+    display: flex;
+    align-items: center;
+   
+}  
+#share{
+    margin-right: 15px;
+}
+
+.time{
+    font-size: 14px;
+    margin-left: 10px;
+}
+.comment{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgb(120, 120, 122);
+}
+.addcomment{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+#text{
+    border: none;
+    font-weight: bold;
+    color: gray;
+    
+}
+#text:focus{
+    border: 0 none #FFF;
+    overflow: hidden;
+    outline:none;
+}
+.addpost{
+    margin-right: 15px;
+    color: rgb(87, 87, 151);
+    border: none;
+    background-color: white;
+}
+.suggestion{
+    margin-top: 5%;
+   /* width: 33%;*/
+}
+#suggestionpix{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.suggestionprofile{
+    display: flex;
+    align-items: center;
+    gap: 35%;
+}
+.self{
+    display: flex;
+    flex-direction: column;
+   line-height: 1px;
+   font-size: 15px;
+   font-weight: bold;
+   width: 50%;
+}
+.suggestionpix{
+    display: flex;
+    gap:15px;
+    align-items: center;
+    font-size:11px;
+}
+.igname{
+    margin-bottom: 2px;
+    color: black;
+    text-decoration: none;
+}
+.igsurname{
+    color: rgb(172, 168, 168);
+}
+.switch{
+    color: rgb(73, 73, 153);
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    background-color: rgb(247, 247, 251);
+}
+
+.suggestionforyou{
+    display: flex;
+    gap: 40%;
+}
+#suggest{
+    color: gray;
+    font-weight: bold;
+}
+.followers{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+}
+.follower{
+    display: flex;
+    align-items: center;
+    gap:16%;
+    width: 90%;
+   
+}
+.followerdetails{
+    display: flex;
+    gap: 10%;
+    align-items:center;
+    width: 70%;
+}
+.footer{
+    margin-top: 5%;
+    width: 84%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    color: rgb(172, 168, 168);
+    margin-left: 10px;
+}
+.footeroption{
+    color: rgb(172, 168, 168);
+    margin-left:-8px;
+    text-decoration: none;
+}
+li{
+    margin-left: 4px;
+}
+.igcopy{
+    color: rgb(172, 168, 168);
+    font-size: 12px;
+}
+
+
+
